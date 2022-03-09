@@ -1,5 +1,7 @@
 <div dir="rtl">
-
+  
+![Ongoing](https://img.shields.io/badge/-Course_Status:_Ongoing-7CFC00?style=flat-square&logoColor=ffffff&textColor=ffffff)
+  
   
 ## معرفی
 سلام دوستان 👋
@@ -27,9 +29,18 @@
   <li><a href="https://marketplace.visualstudio.com/items?itemName=Miladfathy.scss-snippet">scss snippet</a></li>
 </ul>
 
+   
+  ## دوره ها
+  <ul>
+  <li><a href="https://github.com/effati78/ready-to-eat/tree/master/tutorial/sass">آموزش سَس (SASS)</a></li>
+  <li><a href="https://github.com/effati78/ready-to-eat/tree/master/tutorial/js">آموزش جاوا اسکریپت (JS)</a></li>
+</ul>
+  
 
+  </br>
+  
   ## پیشنهاد
-  اینجا قراره با هم دیگه چیز میز یاد بگیریم و پیشرفت کنیم. پس اگر مطلبی به نظرت نیازه که اضافه بشه، از [اینجا](https://github.com/effati78/ready-to-eat/issues/new) بهم بگو 🙋‍♂️
+  اینجا قراره با هم دیگه کلی چیز میز یاد بگیریم و پیشرفت کنیم. پس اگر مطلبی به نظرت نیازه که اضافه بشه، از [اینجا](https://github.com/effati78/ready-to-eat/issues/new) بهم بگو 🙋‍♂️
 
 
 
