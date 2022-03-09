@@ -1,1 +1,49 @@
-// coming soon
+@import 'base';
+
+.menu {
+  background-color: $yellow;
+
+  .link {
+    color: map-get($map: $var1, $key: red);
+
+    .tagA {
+      font-size: map-get($map: $var1, $key: small);
+      padding: $menu-padding;
+
+      &:hover {
+        color: map-get($map: $var1, $key: white);
+      }
+
+      &:active {
+        color: map-get($map: $var1, $key: black);
+      }
+    }
+  }
+}
+
+.testDiv {
+  width: 100%;
+  height: 100px;
+  background-color: map-get($map: $var1, $key: red);
+  // @include flex(center, center);
+  @extend %center;
+}
+
+.test2Div {
+  width: 100%;
+  height: 100px;
+  background-color: map-get($map: $var1, $key: blue);
+  // @include flex(flex-end, flex-end);
+}
+
+.test3Div {
+  width: 100%;
+  height: 100px;
+  background-color: map-get($map: $var1, $key: green);
+  @include flex();
+  @extend %center;
+}
+
+.text-lg {
+  font-size: number(10) * 1px;
+}

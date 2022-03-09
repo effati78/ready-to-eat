@@ -1,0 +1,38 @@
+:root {
+  --yellow: #fcf811;
+}
+
+$yellow: var(--yellow);
+
+$color: #2ecc71;
+$menu-padding: 2px 3px 5px 10px;
+
+$var1: (
+  red: #e74c3c,
+  blue: #3498db,
+  white: #fff,
+  black: #000,
+  green: #2ecc71,
+  small: '5px'
+);
+
+* {
+  font-family: sans-serif;
+}
+
+@mixin flex($Y: center, $X: center) {
+  display: flex;
+  align-items: $Y; // Y
+  justify-content: $X; // X
+}
+
+@function number($num1) {
+  $result: $num1 + 50;
+  @return $result;
+}
+
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
