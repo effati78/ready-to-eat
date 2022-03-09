@@ -1,0 +1,10 @@
+.menu {
+    background: yellow;
+    width: 200px;
+
+    &-box {
+        &-item {
+            display: flex;
+        }
+    }
+}
