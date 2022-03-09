@@ -1,1 +1,2 @@
-/* No CSS *//*# sourceMappingURL=style.min.css.map */
+:root{--yellow: #fcf811}*{font-family:sans-serif}.testDiv,.test3Div{display:flex;align-items:center;justify-content:center}.menu{background-color:var(--yellow)}.menu .link{color:#e74c3c}.menu .link .tagA{font-size:"5px";padding:2px 3px 5px 10px}.menu .link .tagA:hover{color:#fff}.menu .link .tagA:active{color:#000}.testDiv{width:100%;height:100px;background-color:#e74c3c}.test2Div{width:100%;height:100px;background-color:#3498db}.test3Div{width:100%;height:100px;background-color:#2ecc71;display:flex;align-items:center;justify-content:center}.text-lg{font-size:60px}
+/*# sourceMappingURL=style.min.css.map */
