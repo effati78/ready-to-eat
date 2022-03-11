@@ -1,10 +1,53 @@
 .menu {
-    background: yellow;
-    width: 200px;
+    background: #3498db;
+    position: fixed;
+    left: 0;
+    top: 35%;
 
     &-box {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
         &-item {
             display: flex;
+            position: relative;
+            cursor: pointer;
+
+            span {
+                color: #fff;
+                background: #3498db;
+                font-size: 1.8rem;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1;
+                transition: all 0.6s;
+            }
+
+            p {
+                background: #ecf0f1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 120px;
+                height: 40px;
+                left: -80px;
+                position: absolute;
+                transition: all 0.6s;
+            }
+
+            &:hover {
+                p {
+                    left: 40px;
+                }
+
+                span {
+                    background-color: #2980b9;
+                }
+            }            
         }
     }
 }
