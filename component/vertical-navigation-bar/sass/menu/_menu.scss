@@ -19,29 +19,28 @@
                 color: #fff;
                 background: $mainColor;
                 font-size: 1.8rem;
-                width: $leftText;
-                height: 40px;
+                width: $width;
+                height: $height;
                 z-index: 1;
                 transition: all 0.6s;
             }
 
-            p {
+            a {
                 @extend %center;
-                background: transparent;
-                border: 2px solid darken($mainColor, 15%);
-                border-radius: 0 5px 5px 0;
-                border-left: unset;
+                background: lighten($mainColor, 40%);
                 width: 120px;
-                height: 40px;
+                height: $height;
                 left: -80px;
                 position: absolute;
                 transition: all 0.6s;
                 font-weight: 900;
+                text-decoration: none;
+                color: #000;
             }
 
             &:hover {
-                p {
-                    left: $leftText;
+                a {
+                    left: $width;
                 }
 
                 span {
