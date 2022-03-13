@@ -1,5 +1,6 @@
+@import "base";
+
 .menu {
-    background: #3498db;
     position: fixed;
     left: 0;
     top: 35%;
@@ -7,7 +8,6 @@
     &-box {
         display: flex;
         flex-direction: column;
-        gap: 5px;
 
         &-item {
             display: flex;
@@ -15,37 +15,37 @@
             cursor: pointer;
 
             span {
+                @extend %center;
                 color: #fff;
-                background: #3498db;
+                background: $mainColor;
                 font-size: 1.8rem;
-                width: 40px;
+                width: $leftText;
                 height: 40px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
                 z-index: 1;
                 transition: all 0.6s;
             }
 
             p {
-                background: #ecf0f1;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @extend %center;
+                background: transparent;
+                border: 2px solid darken($mainColor, 15%);
+                border-radius: 0 5px 5px 0;
+                border-left: unset;
                 width: 120px;
                 height: 40px;
                 left: -80px;
                 position: absolute;
                 transition: all 0.6s;
+                font-weight: 900;
             }
 
             &:hover {
                 p {
-                    left: 40px;
+                    left: $leftText;
                 }
 
                 span {
-                    background-color: #2980b9;
+                    background-color: darken($mainColor, 15%);
                 }
             }            
         }
