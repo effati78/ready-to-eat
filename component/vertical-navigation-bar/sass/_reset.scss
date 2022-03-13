@@ -8,6 +8,11 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+body,
+* {
+  font-family: IranYekanWeb, sans-serif;
+}
+
 html,
 body,
 *,
